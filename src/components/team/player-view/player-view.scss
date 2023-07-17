@@ -1,0 +1,14 @@
+.player-view {
+
+      .number {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+      }
+
+      .name {
+          bottom: -30%;
+          width: max-content;
+      }
+}

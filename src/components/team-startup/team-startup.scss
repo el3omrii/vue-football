@@ -1,0 +1,23 @@
+.startup {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  .team {
+      width: 100%;
+      .team-header {
+      font-size: 1.5rem;
+      height: 40px;
+        .team-color {
+         
+          border-radius: 0.75rem 0 0 0;
+        }
+        .team-name {
+          margin: 0 10px 0 10px;
+        }
+      }
+      table > tr > td {
+        padding-left: 1.25rem;
+      }
+    }
+}
